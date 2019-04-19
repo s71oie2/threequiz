@@ -7,6 +7,7 @@ class Item(models.Model):  # 과제추가
     name = models.CharField('상품명', max_length=20)
     desc = models.TextField(blank=True)
     photo = models.ImageField()
+    price = models.CharField('가격', max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     

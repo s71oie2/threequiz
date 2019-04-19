@@ -6,7 +6,7 @@ from .models import Item, Review
 # 과제추가
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'short_content', 'photo', 'created_at', 'updated_at']
+    list_display = ['id', 'name', 'price', 'short_content', 'photo', 'created_at', 'updated_at']
     list_display_links = ['id', 'name',]
     list_filter = ['created_at', 'updated_at',]
     search_fields = ['name', 'desc',]

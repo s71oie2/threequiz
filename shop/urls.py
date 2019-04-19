@@ -7,12 +7,12 @@ app_name = 'shop'
 register_converter(converters.FourDigitYearConverter, 'yyyy')
 
 urlpatterns = [
-    path('excel/', views.response_excel),
-    path('image/', views.response_image),
+    # path('excel/', views.response_excel),
+    # path('image/', views.response_image),
     path('mysum/<int:x>/<int:y>/', views.my_sum),
     path('archives/<yyyy:year>/', views.year_archive),
     path('', views.item_list, name='item_list'),  # 과제추가
     path('<int:pk>/', views.item_detail, name='item_detail'),  # 과제추가
     
-    path('test_templates/', views.test_templates),
+    # path('test_templates/', views.test_templates),
 ]

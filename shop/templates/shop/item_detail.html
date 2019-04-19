@@ -1,0 +1,58 @@
+{% extends './layout.html' %}
+
+{% block content %}
+    <a href="{% url 'shop:item_list' %}">상품 목록으로 돌아가기</a><br/><br/>
+
+    <form>
+    <fieldset>
+    <table>
+        <thead>
+            <th>항목</th>
+            <th>내용</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td width="10%">id:</td><td><input type="text" value={{ item.id }}></td>
+        </tr>
+        <tr>
+            <td>상품명:</td><td><input type="text" value="{{ item.name }}"></td>
+        </tr>
+        <tr>
+            <td>간략설명:</td><td><input type="text" value="{{ item.short_content }}" style="width:300px;"></td>
+        </tr>
+        <tr>
+            <td>상품설명:</td><td><input type="text" value="{{ item.desc }}"  style="width:300px;"></td>
+        </tr>
+        <tr>
+            <td>작성 일시:</td><td><input type="text" value="{{ item.created_at }}"></td>
+        </tr>
+        <tr>
+            <td>수정 일시:</td><td><input type="text" value="{{ item.updated_at }}"></td>
+        </tr>
+        </tbody>
+    </table> <br/>
+
+    <table>
+        <thead>
+            <th>id</th>
+            <th>리뷰</th>
+            <th>작성 일시</th>
+            <th>수정 일시</th>
+        </thead>
+        <tbody>
+        {% for r in item.reviews.all %}
+            <tr>
+                <td>{{ r.id }}</td>
+                <td>{{ r.review_cmt }}</td>
+                <td>{{ r.created_at }}</td>
+                <td>{{ r.updated_at }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    </fieldset>
+    </form> <br/>
+
+
+{% endblock %}

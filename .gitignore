@@ -1,0 +1,7 @@
+*.pyc
+*~
+__pycache__
+wvenv
+/static
+.DS_Store
+/pizzas

@@ -1,0 +1,65 @@
+{% extends './layout.html' %}
+
+{% block content %}
+    <h5>post_list 통째로 출력</h5>
+    post_list: {{ post_list }}<br/>
+
+    <h5>post_list 내부의 post 통째로 출력</h5>
+    {% for post in post_list %}
+        post: {{ post }}<br/>
+    {% endfor %}<br/>
+
+    <h5>post_list 내부의 post 순수 속성 출력</h5>
+    {% for post in post_list %}
+        post: {{ post.id }}#{{ post.author }}#{{ post.title }}#
+            {{ post.content }}#{{ post.created_at }}#
+            {{ post.updated }}#{{ post.tags }}<br/>
+    {% endfor %}<br/>
+
+    <h5>post_list 내부의 post 메소드 출력</h5>
+    {% for post in post_list %}
+        post: {{ post.id }}#{{ post.author }}#{{ post.title }}#
+            {{ post.short_content }}#{{ post.created_at }}#
+            {{ post.updated }}#{{ post.tagged }}<br/>
+
+    {% endfor %}<br/>
+
+    <h5>post_list 테이블 형식 출력</h5>
+    <table>
+        <thead>
+            <th>id</th>
+            <th>게시자</th>
+            <th>제목</th>
+            <th>간략 내용</th>
+            <th>작성 일시</th>
+            <th>수정 일시</th>
+            <th>태그 집합</th>
+        </thead>
+        <tbody>
+        {% for post in post_list %}
+        <tr style="background-color:
+                {% ifchanged post.id %}
+                    {% cycle 'yellow' 'pink' %}
+                {% else %}
+                    'gray'
+                {% endifchanged %}"
+        >
+            <td>{{ post.id }}</td>
+            <td>{{ post.author }}</td>
+            <td>
+{#                <a href="/blog/{{ post.pk }}">#}
+{#                <a href="{% url 'blog:post_detail' pk=post.pk %}">#}
+                <a href="{{ post.get_absolute_url }}"> {# redirect 모델 구현한 방법 #}
+                    {# href="blog/..."로 하면 오류!!! #}
+                    {{ post.title }}
+                </a>
+            </td>
+            <td>{{ post.short_content }}</td>
+            <td>{{ post.created_at }}</td>
+            <td>{{ post.updated }}</td>
+            <td>{{ post.tagged }}</td>
+        </tr>
+       {% endfor %}
+        </tbody>
+    </table><br/>
+{% endblock %}

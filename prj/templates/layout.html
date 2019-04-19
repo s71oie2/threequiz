@@ -1,0 +1,29 @@
+{#prj/templates/layout.html#}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}SoLee{% endblock %}</title>
+
+    {% block extra_head %}  {# 상속 받을지 말지 선택할 수 있음 #}
+        <link rel="stylesheet" href="{% static 'main.css' %}" />
+    {% endblock %}
+</head>
+<body>
+    <h1>s71oie2</h1>
+
+    {% block content %}
+        <img src="{% static 'jjong.jpg' %}" alt="main logo image" style="width: 70%">
+        <h1>SoLee' site</h1>
+    {% endblock %}
+
+    <hr/>
+    No &copy;! <img src="http://www.pngmart.com/files/8/Copyleft-PNG-Transparent-Picture.png" height="42" width="42" style="margin-bottom: -5px" />2019. logistex.
+
+    {% block extra_body %}
+        <script src="{% static 'main.js' %}"></script>
+    {% endblock %} {# 자바스크립트 등을 위하여 #}
+</body>
+</html>

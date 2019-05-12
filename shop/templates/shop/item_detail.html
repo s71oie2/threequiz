@@ -1,61 +1,56 @@
-{% extends './layout.html' %}
+{% extends 'base.html' %}
+{% load humanize %}
 
 {% block content %}
-    <a href="{% url 'shop:item_list' %}">상품 목록으로 돌아가기</a><br/><br/>
-
+    {{ block.super }}
+<div style="margin: 0 auto; width: 85%;">
+    <br/><br/><br/><br/>
+    <a href="{% url 'shop:item_list' %}"><button type="button" class="btn btn-outline-success">상품 목록</button></a> <br/><br/>
     <form>
     <fieldset>
-    <table>
+    <table class="table">
         <thead>
-            <th>항목</th>
-            <th>내용</th>
+            <th>필드</th><th>내용</th>
         </thead>
         <tbody>
         <tr>
-            <td width="10%">id:</td><td><input type="text" value={{ item.id }}></td>
+            <td width="15%">id:</td>
+            <td>{{ item.id }}</td>
         </tr>
         <tr>
-            <td>상품명:</td><td><input type="text" value="{{ item.name }}"></td>
+            <td>상품명:</td>
+            <td>{{ item.name }}</td>
         </tr>
         <tr>
-            <td>가격:</td><td><input type="text" value="{{ item.price }}"></td>
+            <td>설명:</td>
+            <td>
+                {{ item.desc.strip }}
+            </td>
         </tr>
         <tr>
-            <td>간략설명:</td><td><input type="text" value="{{ item.short_content }}" style="width:300px;"></td>
+            <td>가격:</td>
+            <td>{{ item.price|intcomma }} 원
+            </td>
         </tr>
         <tr>
-            <td>상품설명:</td><td><input type="text" value="{{ item.desc }}"  style="width:300px;"></td>
+            <td>사진:</td>
+            <td>
+                {% if item.photo %}<img src="{{ item.photo.url }}" style="height: 20vw"/>{% endif %}
+            </td>
         </tr>
         <tr>
-            <td>작성 일시:</td><td><input type="text" value="{{ item.created_at }}"></td>
+            <td>출시 여부:</td>
+            <td>
+                <input type="checkbox" name="item.is_published" value="1"
+                       {% if item.is_published %}checked{% endif %} />
+            </td>
         </tr>
-        <tr>
-            <td>수정 일시:</td><td><input type="text" value="{{ item.updated_at }}"></td>
-        </tr>
-        </tbody>
-    </table> <br/>
-
-    <table>
-        <thead>
-            <th>id</th>
-            <th>리뷰</th>
-            <th>작성 일시</th>
-            <th>수정 일시</th>
-        </thead>
-        <tbody>
-        {% for r in item.reviews.all %}
-            <tr>
-                <td>{{ r.id }}</td>
-                <td>{{ r.review_cmt }}</td>
-                <td>{{ r.created_at }}</td>
-                <td>{{ r.updated_at }}</td>
-            </tr>
-        {% endfor %}
         </tbody>
     </table>
-
     </fieldset>
-    </form> <br/>
+    </form> <br/><br/>
+    <a href="{% url 'shop:item_edit' item.pk %}"><button type="button" class="btn btn-outline-success">상품 수정</button></a>
+    <a href="{% url 'shop:item_remove' item.pk %}"><button type="button" class="btn btn-outline-success">상품 삭제</button></a>
+</div>
 
-
-{% endblock %}
+{% endblock content %}

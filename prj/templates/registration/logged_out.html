@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}로그아웃{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "css/forms.css" %}{% endblock %}
+
+{% block content %}
+<div id="content" style="margin-top:100px">
+    <h1 class="centered">안녕히가세요!</h1>
+    <p class="centered">로그아웃되었습니다.</p>
+    <p class="centered"><a href="{% url 'login' %}">로그인</a></p>
+</div>
+{% endblock %}

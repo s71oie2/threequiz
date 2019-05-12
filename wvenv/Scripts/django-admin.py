@@ -1,4 +1,4 @@
-#!d:\장고\wvenv\scripts\python.exe
+#!D:\장고\wvenv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

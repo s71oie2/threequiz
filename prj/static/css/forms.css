@@ -1,0 +1,80 @@
+/* Form Error */
+.error-note {
+    display: block;
+    margin: 5px 0;
+    border: 1px solid #01a252;
+    background: #a7dd95;
+    padding: 5px 25px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.aligned label {
+    width: 170px;
+    display: block;
+    padding: 3px 10px 0 0;
+    float: left;
+}
+
+p, h1, fieldset{margin-top: 25px;}
+
+table {
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 0 0 1px #666;
+}
+table tr th{
+    padding-top: 20px;
+    height: 35px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+    font-size: 11px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+
+td.col-left{text-align: left;padding-top: 10px;width:33%}
+
+td.col-right>input{width: 100%}
+
+th:first-child{
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+tr:last-child>td:last-child{
+    border-radius: 0 0 10px 0;
+    -moz-border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    border-bottom: none;
+}
+tr:last-child>td:first-child{
+    border-radius:0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    border-bottom: none;
+}
+
+td.submit-row {
+    margin: 0 auto;
+    text-align: center;
+}
+
+td.submit-row input, td.submit-row input:active {
+    width: 40%;
+    height: 40px;
+    background-color: #01a252;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.centered{text-align: center;}

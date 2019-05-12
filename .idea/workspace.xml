@@ -2,7 +2,371 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0b1af2-f844-4162-a867-c2a263641134" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prj/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/img/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/img/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/img/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/img/talk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj/static/img/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e91488a-d8c7-4145-ba7c-eee8ce0c2744.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e91488a-d8c7-4145-ba7c-eee8ce0c2744.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20190326_1252.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0004_post_author.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0005_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0006_post_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0007_auto_20190409_1139.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstModule.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/galaxy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/galaxy10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzas/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/prj/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/prj/static/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/prj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/prj/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0002_item_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0003_review.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0004_auto_20190419_1427.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0005_auto_20190419_1458.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0006_auto_20190419_1501.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0007_item_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/static/shop/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/item_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/item_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/item_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/item_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/isoparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/isoparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/relativedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/relativedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/rrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/rrule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/tz.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/tz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/win.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/admin/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/gis/gdal/envelope.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/gis/gdal/envelope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/db/models/sql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/db/models/sql/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/utils/numberformat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/utils/numberformat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3-py3.6-nspkg.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/namespace_packages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_color_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_color_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_contour.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_contour.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_image.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_image.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_path.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_path.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_png.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_png.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_qhull.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_qhull.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_tri.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_tri.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_windowing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_windowing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/artist.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/artist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/axes/_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/axes/_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_backend_agg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_backend_agg.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_gtk3_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_gtk3_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_tkagg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_tkagg.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_cairo.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_cairo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_ps.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_ps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/qt_editor/figureoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/qt_editor/figureoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/all_figures.html" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/all_figures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/single_figure.html" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/single_figure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/colorbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/colorbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/contour.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/contour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/figure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ft2font.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ft2font.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/mlab.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/mlab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/pyplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/pyplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/scale.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/scale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/testing/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ticker.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ticker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ttconv.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ttconv.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/.libs/libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/.libs/libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/py3k.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/py3k.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/tests/test_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/tests/test_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_dummy.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_dummy.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_internal.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_internal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_tests.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_umath.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_umath.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_operand_flag_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_operand_flag_tests.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_rational_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_rational_tests.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_umath_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_umath_tests.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/include/numpy/multiarray_api.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/include/numpy/multiarray_api.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/lib/npymath.lib" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/lib/npymath.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/multiarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/overrides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/records.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/records.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/shape_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/shape_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_arrayprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_arrayprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_dtype.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_dtype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_multiarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_overrides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_shape_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_shape_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_umath.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_umath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/ctypeslib.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/ctypeslib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/_shell_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/absoft.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/absoft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/gnu.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/gnu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/intel.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/intel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/pg.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/pg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/sun.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/sun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/system_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_fcompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_fcompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_shell_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_system_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/f2py2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/f2py2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/tests/test_compile_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/tests/test_compile_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/fft/fftpack_lite.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/fft/fftpack_lite.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/_datasource.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/_datasource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/arraysetops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/arraysetops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/function_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/function_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/tests/test_arraysetops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/tests/test_arraysetops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/twodim_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/twodim_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/_umath_linalg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/_umath_linalg.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/lapack_lite.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/lapack_lite.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/mtrand.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/mtrand.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/tests/test_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/tests/test_random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/nosetester.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/nosetester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_ctypeslib.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_ctypeslib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/algos.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/algos.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/groupby.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/groupby.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashtable.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashtable.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/index.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/index.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/indexing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/indexing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/internals.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/internals.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/interval.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/interval.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/join.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/join.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/json.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/json.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/lib.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/lib.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/missing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/missing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/ops.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/ops.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/parsers.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/parsers.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/properties.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/properties.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reduction.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reduction.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reshape.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reshape.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/skiplist.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/skiplist.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/sparse.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/sparse.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/testing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/testing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslib.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslib.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/conversion.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/conversion.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/fields.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/fields.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/frequencies.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/frequencies.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/nattype.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/nattype.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/offsets.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/offsets.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/parsing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/parsing.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/period.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/period.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/resolution.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/resolution.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/strptime.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/strptime.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timezones.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timezones.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/window.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/window.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/writers.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/writers.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/compat/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/compat/numpy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/numpy_.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/numpy_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/timedeltas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/groupby/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/groupby/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/resample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/reshape/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/reshape/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/tools/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/tools/timedeltas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/terminal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/json/table_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/json/table_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_packer.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_packer.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_unpacker.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_unpacker.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/parsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sas/_sas.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sas/_sas.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/plotting/_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/plotting/_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arithmetic/test_datetime64.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arithmetic/test_datetime64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/categorical/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/categorical/test_constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/sparse/test_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/sparse/test_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_timedeltas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/test_numpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/test_numpy_nested.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_alter_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_analytics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_convert_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_convert_to.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/groupby/test_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/groupby/test_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/datetimes/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/datetimes/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_analytics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_set_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_set_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/json/test_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/json/test_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/plotting/test_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/plotting/test_series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reductions/test_reductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reductions/test_reductions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/resample/test_datetime_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/resample/test_datetime_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/scalar/timedelta/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/scalar/timedelta/test_timedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_alter_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_repr.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_repr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_downstream.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_downstream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/util/_move.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/util/_move.cp36-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/django-admin.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/f2py.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/f2py.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +401,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -46,49 +417,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_detail.html">
+        <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="640">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/admin.py">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="1320">
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#2074#2278#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prj/settings.py">
+        <entry file="file://$PROJECT_DIR$/prj/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="e#869#875#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/prj/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="260">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/models.py">
+        <entry file="file://$PROJECT_DIR$/prj/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="2640">
+              <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prj/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prj/settings/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="17" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -97,34 +498,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/urls.py">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#436#640#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -134,10 +514,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -146,6 +526,9 @@
       <find>blo</find>
       <find>blog</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,49 +536,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/prj/prj/settings.py" />
-        <option value="$PROJECT_DIR$/prj/shop/views.py" />
-        <option value="$PROJECT_DIR$/prj/shop/admin.py" />
-        <option value="$PROJECT_DIR$/prj/prj/urls.py" />
-        <option value="$PROJECT_DIR$/prj/shop/urls.py" />
-        <option value="$PROJECT_DIR$/prj/shop/models.py" />
-        <option value="$PROJECT_DIR$/prj/shop/templates/shop/item_list.html" />
         <option value="$PROJECT_DIR$/shop/convertors.py" />
         <option value="$PROJECT_DIR$/shop/converters.py" />
         <option value="$PROJECT_DIR$/pizzas/models.py" />
         <option value="$PROJECT_DIR$/pizzas/urls.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/layout.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/prj/urls.py" />
         <option value="$PROJECT_DIR$/static/main.css" />
         <option value="$PROJECT_DIR$/static/main.js" />
         <option value="$PROJECT_DIR$/shop/static/shop/sho.js" />
         <option value="$PROJECT_DIR$/shop/static/shop/shop.js" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/shop/static/shop/shop.css" />
         <option value="$PROJECT_DIR$/shop/templates/shop/layout.html" />
         <option value="$PROJECT_DIR$/prj/templates/layout.html" />
         <option value="$PROJECT_DIR$/prj/static/main.css" />
-        <option value="$PROJECT_DIR$/prj/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/shop/views.py" />
-        <option value="$PROJECT_DIR$/shop/urls.py" />
-        <option value="$PROJECT_DIR$/shop/models.py" />
         <option value="$PROJECT_DIR$/shop/admin.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/static/base.css" />
+        <option value="$PROJECT_DIR$/static/home.css" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/prj/settings.py" />
+        <option value="$PROJECT_DIR$/shop/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/_AZTMP2_/static/css/base.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/_AZTMP2_/과제/index.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/logged_out.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/password_change_done.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/password_change_form.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/register_done.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/register.html" />
+        <option value="$PROJECT_DIR$/prj/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/prj/urls.py" />
+        <option value="$PROJECT_DIR$/shop/models.py" />
+        <option value="$PROJECT_DIR$/shop/views.py" />
+        <option value="$PROJECT_DIR$/prj/views.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/item_detail.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/item_form_old.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/item_form.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/item_list.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
+        <option value="$PROJECT_DIR$/prj/templates/base.html" />
+        <option value="$PROJECT_DIR$/prj/templates/home.html" />
+        <option value="$PROJECT_DIR$/prj/static/css/home.css" />
+        <option value="$PROJECT_DIR$/prj/static/css/base.css" />
+        <option value="$PROJECT_DIR$/prj/settings/common.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +609,72 @@
               <item name="장고" type="b2602c69:ProjectViewProjectNode" />
               <item name="장고" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="prj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="prj" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="prj" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="prj" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="prj" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="장고" type="b2602c69:ProjectViewProjectNode" />
+              <item name="장고" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -222,7 +687,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/prj/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -238,9 +703,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\장고\shop\static\shop" />
+      <recent name="D:\장고\prj\static\css" />
+      <recent name="D:\장고\prj\templates" />
+      <recent name="D:\장고\prj\static\img" />
       <recent name="D:\장고\prj\static" />
-      <recent name="D:\장고\static" />
+      <recent name="D:\장고\static\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\장고\prj\static" />
@@ -332,12 +799,22 @@
       <workItem from="1554770960827" duration="11876000" />
       <workItem from="1555288727962" duration="5471000" />
       <workItem from="1555376099867" duration="7424000" />
-      <workItem from="1555649839056" duration="17144000" />
+      <workItem from="1555649839056" duration="18475000" />
+      <workItem from="1556499755300" duration="4592000" />
+      <workItem from="1556584555857" duration="2376000" />
+      <workItem from="1556602775949" duration="264000" />
+      <workItem from="1557151250606" duration="101000" />
+      <workItem from="1557317696102" duration="3108000" />
+      <workItem from="1557320932568" duration="3118000" />
+      <workItem from="1557389403922" duration="8926000" />
+      <workItem from="1557455586359" duration="29542000" />
+      <workItem from="1557584552232" duration="2301000" />
+      <workItem from="1557627656477" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109895000" />
+    <option name="totallyTimeSpent" value="165907000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -351,7 +828,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,354 +841,259 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3297587" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33154362" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.17449665" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.32348993" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.047651008" />
+      <window_info anchor="right" id="Database" order="4" weight="0.20134228" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14362416" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3324397" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.10067114" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/mysite/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/mysite/urls.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prj/shop/urls.py" />
-    <entry file="file://$PROJECT_DIR$/prj/shop/views.py" />
-    <entry file="file://$PROJECT_DIR$/prj/shop/models.py" />
-    <entry file="file://$PROJECT_DIR$/prj/shop/templates/shop/item_list.html" />
-    <entry file="das://7cea3257-71a3-43e0-be97-f0974ac1643c/schema/main/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7cea3257-71a3-43e0-be97-f0974ac1643c/schema/main/table/auth_permission">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e91488a-d8c7-4145-ba7c-eee8ce0c2744/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/converters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/migrations/0002_comment.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/blog/models.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/blog/admin.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/shop/views.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP3_/shop/templates/shop/item_list.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP4_/blog/views.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP5_/shop/views.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP6_/shop/templates/shop/item_list.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP7_/blog/admin.py" />
-    <entry file="das://3e91488a-d8c7-4145-ba7c-eee8ce0c2744/schema/main/table/pizzas_topping">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3e91488a-d8c7-4145-ba7c-eee8ce0c2744/schema/main/table/pizzas_pizza">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3e91488a-d8c7-4145-ba7c-eee8ce0c2744/schema/main/table/pizzas_toppingamount">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzas/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3e91488a-d8c7-4145-ba7c-eee8ce0c2744/schema/main/table/blog_post">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="e#2419#2621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prj/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prj/static/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3e91488a-d8c7-4145-ba7c-eee8ce0c2744/schema/main/table/shop_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/post_list(1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/shop/shop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prj/static/jjong.jpg">
+    <entry file="file://$PROJECT_DIR$/prj/static/img/world.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/layout.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/과제/css/home.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/templates/registration/login.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/mysite/urls.py" />
+    <entry file="file://$PROJECT_DIR$/prj/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/settings/service.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/password_change_done.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prj/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/password_change_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/logged_out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP4_/mysite/settings.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP5_/mysite/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP6_/templates/registration/login.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP3_/mysite/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP7_/templates/base.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP8_/templates/registration/register.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP9_/templates/registration/register_done.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP10_/mysite/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP11_/blog/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP12_/blog/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP13_/mysite/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP14_/bookmark/urls.py" />
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/register_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/static/css/forms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+    <entry file="file://$PROJECT_DIR$/prj/static/img/main1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/prj/templates/base.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/templates/home.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/templates/home.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/photo/views.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/photo/templates/photo/album_list.html" />
+    <entry file="file://$PROJECT_DIR$/prj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="80">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prj/static/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/shop/shop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prj/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state>
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/photo/templates/photo/album_list.html" />
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_form_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="93" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#94#133#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="640">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding>
+            <element signature="e#2074#2278#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#869#875#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/admin.py">
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#436#640#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_detail.html">
+    <entry file="file://$PROJECT_DIR$/prj/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="220">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/item_list.html">
+    <entry file="file://$PROJECT_DIR$/prj/settings/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
         </state>
       </provider>
     </entry>

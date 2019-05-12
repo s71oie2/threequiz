@@ -1,51 +1,30 @@
-{% extends './layout.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
-    <h5>post_list 통째로 출력</h5>
-    post_list: {{ post_list }}<br/>
-
-    <h5>post_list 내부의 post 통째로 출력</h5>
-    {% for post in post_list %}
-        post: {{ post }}<br/>
-    {% endfor %}<br/>
-
-    <h5>post_list 내부의 post 순수 속성 출력</h5>
-    {% for post in post_list %}
-        post: {{ post.id }}#{{ post.author }}#{{ post.title }}#
-            {{ post.content }}#{{ post.created_at }}#
-            {{ post.updated }}#{{ post.tags }}<br/>
-    {% endfor %}<br/>
-
-    <h5>post_list 내부의 post 메소드 출력</h5>
-    {% for post in post_list %}
-        post: {{ post.id }}#{{ post.author }}#{{ post.title }}#
-            {{ post.short_content }}#{{ post.created_at }}#
-            {{ post.updated }}#{{ post.tagged }}<br/>
-
-    {% endfor %}<br/>
-
-    <h5>post_list 테이블 형식 출력</h5>
-    <table>
+<div style="width: 85%; margin: 0 auto;">
+<br/><br/><br/><br/>
+    <h4>공지사항</h4>
+    <table class="table">
         <thead>
             <th>id</th>
-            <th>게시자</th>
+            <th class="d-lg-table-cell d-md-table-cell d-sm-none d-none">게시자</th>
             <th>제목</th>
-            <th>간략 내용</th>
+            <th class="d-lg-table-cell d-md-table-cell d-sm-none d-none">간략 내용</th>
             <th>작성 일시</th>
-            <th>수정 일시</th>
-            <th>태그 집합</th>
+            <th class="d-lg-table-cell d-md-table-cell d-sm-none d-none">수정 일시</th>
+            <th class="d-lg-table-cell d-md-table-cell d-sm-none d-none">태그 집합</th>
         </thead>
         <tbody>
         {% for post in post_list %}
         <tr style="background-color:
                 {% ifchanged post.id %}
-                    {% cycle 'yellow' 'pink' %}
+                    {% cycle 'white' '#eeeeee' %}
                 {% else %}
                     'gray'
                 {% endifchanged %}"
         >
             <td>{{ post.id }}</td>
-            <td>{{ post.author }}</td>
+            <td class="d-lg-table-cell d-md-table-cell d-sm-none d-none">{{ post.author }}</td>
             <td>
 {#                <a href="/blog/{{ post.pk }}">#}
 {#                <a href="{% url 'blog:post_detail' pk=post.pk %}">#}
@@ -54,12 +33,14 @@
                     {{ post.title }}
                 </a>
             </td>
-            <td>{{ post.short_content }}</td>
+            <td class="d-lg-table-cell d-md-table-cell d-sm-none d-none">{{ post.short_content }}</td>
             <td>{{ post.created_at }}</td>
-            <td>{{ post.updated }}</td>
-            <td>{{ post.tagged }}</td>
+            <td class="d-lg-table-cell d-md-table-cell d-sm-none d-none">{{ post.updated }}</td>
+            <td class="d-lg-table-cell d-md-table-cell d-sm-none d-none">{{ post.tagged }}</td>
         </tr>
        {% endfor %}
         </tbody>
     </table><br/>
+</div>
+
 {% endblock %}

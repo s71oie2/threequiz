@@ -2,371 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0b1af2-f844-4162-a867-c2a263641134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prj/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/img/bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/img/call.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/img/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/img/talk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj/static/img/up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e91488a-d8c7-4145-ba7c-eee8ce0c2744.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e91488a-d8c7-4145-ba7c-eee8ce0c2744.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_comment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20190326_1252.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0004_post_author.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0005_tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0006_post_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0007_auto_20190409_1139.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lstModule.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/galaxy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/galaxy10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzas/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/prj/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/prj/static/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/prj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/prj/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0002_item_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0003_review.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0004_auto_20190419_1427.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0005_auto_20190419_1458.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0006_auto_20190419_1501.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0007_item_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/static/shop/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/item_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/item_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/item_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/item_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/Django-2.1.7.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi-2019.3.9.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/certifi/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/isoparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/parser/isoparser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/relativedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/relativedelta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/rrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/rrule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/_factories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/tz.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/tz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/win.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/tz/win.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/admin/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/gis/gdal/envelope.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/contrib/gis/gdal/envelope.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/db/models/sql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/db/models/sql/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/utils/numberformat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/django/utils/numberformat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3-py3.6-nspkg.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/namespace_packages.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib-3.0.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_color_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_color_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_contour.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_contour.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_image.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_image.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_path.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_path.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_png.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_png.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_qhull.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_qhull.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_tri.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_tri.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_windowing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/_windowing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/artist.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/artist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/axes/_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/axes/_axes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_backend_agg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_backend_agg.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_gtk3_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_gtk3_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_tkagg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/_tkagg.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_cairo.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_cairo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_ps.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/backend_ps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/qt_editor/figureoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/qt_editor/figureoptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/all_figures.html" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/all_figures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/jquery-ui.theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/single_figure.html" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/backends/web_backend/single_figure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/colorbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/colorbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/contour.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/contour.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/dates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/figure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ft2font.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ft2font.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/mlab.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/mlab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/pyplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/pyplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/scale.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/scale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/testing/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ticker.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ticker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ttconv.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/ttconv.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/matplotlib/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy-1.16.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/.libs/libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/.libs/libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/py3k.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/py3k.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/tests/test_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/compat/tests/test_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_dummy.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_dummy.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_internal.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_internal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_tests.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_umath.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_multiarray_umath.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_operand_flag_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_operand_flag_tests.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_rational_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_rational_tests.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_umath_tests.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/_umath_tests.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/include/numpy/multiarray_api.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/include/numpy/multiarray_api.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/lib/npymath.lib" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/lib/npymath.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/multiarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/overrides.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/records.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/records.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/shape_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/shape_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_arrayprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_arrayprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_datetime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_dtype.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_dtype.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_half.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_multiarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_overrides.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_shape_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_shape_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_umath.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/core/tests/test_umath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/ctypeslib.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/ctypeslib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/_shell_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/absoft.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/absoft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/gnu.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/gnu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/intel.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/intel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/pg.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/pg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/sun.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/fcompiler/sun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/system_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_fcompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_fcompiler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_shell_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/distutils/tests/test_system_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/f2py2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/f2py2e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/tests/test_compile_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/f2py/tests/test_compile_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/fft/fftpack_lite.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/fft/fftpack_lite.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/_datasource.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/_datasource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/arraysetops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/arraysetops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/function_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/function_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/tests/test_arraysetops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/tests/test_arraysetops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/twodim_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/lib/twodim_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/_umath_linalg.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/_umath_linalg.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/lapack_lite.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/linalg/lapack_lite.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/mtrand.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/mtrand.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/tests/test_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/random/tests/test_random.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/nosetester.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/nosetester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/_private/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/testing/tests/test_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_ctypeslib.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_ctypeslib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/tests/test_scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/numpy/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/AUTHORS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas-0.24.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/algos.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/algos.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/groupby.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/groupby.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashtable.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/hashtable.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/index.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/index.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/indexing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/indexing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/internals.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/internals.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/interval.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/interval.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/join.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/join.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/json.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/json.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/lib.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/lib.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/missing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/missing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/ops.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/ops.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/parsers.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/parsers.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/properties.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/properties.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reduction.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reduction.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reshape.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/reshape.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/skiplist.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/skiplist.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/sparse.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/sparse.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/testing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/testing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslib.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslib.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/conversion.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/conversion.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/fields.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/fields.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/frequencies.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/frequencies.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/nattype.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/nattype.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/offsets.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/offsets.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/parsing.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/parsing.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/period.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/period.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/resolution.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/resolution.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/strptime.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/strptime.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timezones.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/tslibs/timezones.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/window.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/window.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/writers.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_libs/writers.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/compat/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/compat/numpy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/algorithms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/categorical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/datetimes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/numpy_.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/numpy_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/arrays/timedeltas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/dtypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/dtypes/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/generic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/groupby/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/groupby/generic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/datetimes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/interval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/multi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/indexes/range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/blocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/concat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/internals/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/resample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/reshape/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/reshape/merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/sorting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/tools/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/core/tools/timedeltas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/formats/terminal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/json/table_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/json/table_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_packer.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_packer.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_unpacker.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/msgpack/_unpacker.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/parsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/pytables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sas/_sas.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sas/_sas.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/io/sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/plotting/_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/plotting/_core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arithmetic/test_datetime64.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arithmetic/test_datetime64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/categorical/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/categorical/test_constructors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/sparse/test_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/sparse/test_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_period.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/arrays/test_timedeltas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/dtypes/test_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/test_numpy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/extension/numpy_/test_numpy_nested.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_alter_axes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_analytics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_apply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_constructors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_convert_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_convert_to.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_duplicates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_replace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/frame/test_to_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/groupby/test_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/groupby/test_transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/datetimes/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/datetimes/test_setops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/interval/test_interval_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_analytics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_duplicates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_set_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/multi/test_set_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_indexing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_period.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/period/test_setops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/test_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/formats/test_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/json/test_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/json/test_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/io/test_pytables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/plotting/test_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/plotting/test_series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reductions/test_reductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reductions/test_reductions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/resample/test_datetime_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/resample/test_datetime_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_join.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/scalar/timedelta/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/scalar/timedelta/test_timedelta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_alter_axes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_duplicates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_replace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_repr.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/series/test_repr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_algos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_downstream.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_downstream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/tests/test_sorting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/util/_move.cp36-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Lib/site-packages/pandas/util/_move.cp36-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Lib/site-packages/python_dateutil-2.8.0.dist-info/zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/django-admin.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wvenv/Scripts/f2py.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wvenv/Scripts/f2py.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/217230107_김소이_shop과제.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5조과제1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5조과제2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5조과제3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5조과제_거의완성.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -476,13 +118,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prj/settings/common.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -809,12 +456,12 @@
       <workItem from="1557389403922" duration="8926000" />
       <workItem from="1557455586359" duration="29542000" />
       <workItem from="1557584552232" duration="2301000" />
-      <workItem from="1557627656477" duration="353000" />
+      <workItem from="1557627656477" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165907000" />
+    <option name="totallyTimeSpent" value="167288000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -870,9 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prj/static/img/world.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/과제/css/home.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/templates/registration/login.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/mysite/urls.py" />
@@ -1096,6 +740,9 @@
           <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

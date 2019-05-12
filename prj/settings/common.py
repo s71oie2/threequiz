@@ -39,14 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    'debug_toolbar',
-    'django_extensions',
+    # 'debug_toolbar',
+    # 'django_extensions',
     'shop',
     'blog',
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',  # 추가 2
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',  # 추가 2
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

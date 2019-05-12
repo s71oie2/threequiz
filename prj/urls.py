@@ -13,8 +13,8 @@ urlpatterns = [
     path('shop/', include('shop.urls'), name='shop'),
     path('blog/', include('blog.urls'), name='blog'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-if settings.DEBUG:                                       # 추가 2
-    import debug_toolbar                                 # 추가 2
-    urlpatterns += [                                     # 추가 2
-        path('__debug__/', include(debug_toolbar.urls)), # 추가 2
-    ]                                                    # 추가 2
+# if settings.DEBUG:                                       # 추가 2
+#     import debug_toolbar                                 # 추가 2
+#     urlpatterns += [                                     # 추가 2
+#         path('__debug__/', include(debug_toolbar.urls)), # 추가 2
+#     ]                                                    # 추가 2
